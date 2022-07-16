@@ -19,23 +19,42 @@
 			<ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
 				<li class="nav-item">
 					<select class="form-select" aria-label="Default select example">
-						<option selected>Select pokemon</option>
-						<option value="1">One</option>
-						<option value="2">Two</option>
-						<option value="3">Three</option>
+						<option selected>pikachu</option>
+						<option>charizard</option>
 					</select>
 				</li>
 			</ul>
-			<div class="col-md-3 text-end">
-				<button class="btn btn-primary" type="button">Search</button>
-			</div>
 		</header>
 
 		<main>
-			
-			<div>
+
+			<h2>Pokemon name + id</h2>
+			<img id="poke_pic" src="..." class="rounded" alt="...">
+
+			<ul class="list-group" id="poke_info">
+			</ul>
+
+			<h2>Base Stats</h2>
+			<div id="Chart" class="col">
 				<canvas id="myChart"></canvas>
 			</div>
+
+
+			<h2>List of Moves</h2>
+			<table class="table">
+				<thead>
+					<tr>
+						<th scope="col">Level</th>
+						<th scope="col">Move</th>
+					</tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+
+
+			<h2>Evolution Chart</h2>
+
 
 		</main>
 
