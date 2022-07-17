@@ -1,0 +1,30 @@
+#chart_table {
+height: 20rem;
+max-width: 100%;
+margin: 0 auto;
+}
+
+#chart_table caption {
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.25rem;
+}
+
+#chart_table column th {
+  background-color: #f6f6f6;
+}
+
+#chart_table tbody {
+  overflow-y: hidden; /* remove this to see how it works */
+}
+#chart_table tbody th {
+  background: #fff;
+  z-index: 1;
+}
+#chart_table tbody td {
+  animation: moving-bars 4s linear infinite;
+}
+@keyframes moving-bars {
+  0%  { transform: translateY( 100% ); }
+  15% { transform: translateY( 0 ); }
+}
